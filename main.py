@@ -13,9 +13,10 @@ pygame.display.set_caption("PingPong")
 
 game = True
 while game:
-    window.fill((220,230,230))
+    window.fill((40,150,255))
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             game = False
     pygame.display.update()
     clock.tick(FPS)
+
